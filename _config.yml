@@ -185,6 +185,7 @@ show_author_work_experiences: true
 show_author_education_details: true
 show_author_project_details: true
 show_accomplishments: true
+show_namespace_collision: true
 
 # dont touch this unless required
 plugins:
