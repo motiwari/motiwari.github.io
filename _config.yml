@@ -52,6 +52,8 @@ author_bio3: >-
 author_location: Stanford, CA
 author_website_url: "http://motiwari.com"
 
+formspree_email: xpzpweng
+
 # Build settings
 theme: devlopr
 plugins:
@@ -72,8 +74,8 @@ urls:
     #   url: /coursework/
     - text: FAQ
       url: /faq/
-    # - text: Feedback
-    #   url: /feedback/
+    - text: Feedback
+      url: /feedback/
 
 author_work_experiences:
             - company_name: Facebook (and Oculus)
