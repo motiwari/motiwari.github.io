@@ -71,7 +71,7 @@ urls:
     # - text: Coursework
     #   url: /coursework/
     - text: FAQ
-      url: /faq
+      url: /faq/
     # - text: Feedback
     #   url: /feedback/
 
