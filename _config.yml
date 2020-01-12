@@ -66,14 +66,12 @@ urls:
     #   url: /projects/
     # - text: Publications and Talks
     #   url: /refs/
-    # - text: Collaborations
-    #   url: /collaborations/
     - text: Resume
       url: resume.pdf
     # - text: Coursework
     #   url: /coursework/
-    # - text: FAQ
-    #   url: /faq/
+    - text: FAQ
+      url: /faq/
     # - text: Feedback
     #   url: /feedback/
 
