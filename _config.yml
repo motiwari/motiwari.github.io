@@ -67,7 +67,7 @@ urls:
     # - text: Publications and Talks
     #   url: /refs/
     - text: Resume
-      url: resume.pdf
+      url: /resume.pdf
     # - text: Coursework
     #   url: /coursework/
     - text: FAQ
