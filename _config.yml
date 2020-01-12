@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Mo Tiwari
-email: motiwari@stanford.edu
+email: motiwari at institution name + gTLD
 description: >- # this means to ignore newlines until "baseurl:"
   Mo Tiwari's webpage, projects, biography, resume, and FAQ
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -33,16 +33,18 @@ website: motiwari.com
 
 author_logo: profile.png
 author: Mo Tiwari
-author_bio: >-
+author_bio: |
   Thank you for visiting my website! I'm currently a Ph.D. student in Computer
-  Science at Stanford University. I have an unconventional path to the Ph.D.
+  Science at Stanford University, advised by
+  <a href="http://robots.stanford.edu/personal.html">Sebastian Thrun</a> and
+  <a href="https://stanford.edu/~cpiech/bio/index.html">Chris Piech</a>.
+  I have an unconventional path to the Ph.D.
   program in that I worked for 4 years in between my undergraduate and graduate
   studies. I have an eclectic career spanning particle physics,
   quantum computation, finance, cybersecurity, virtual and augmented reality,
   artificial intelligence, machine learning, and healthcare -- largely because
   I love learning new things about math, physics, statistics, and computer
   science!
-author_email: "motiwari@stanford.edu"
 author_location: Stanford, CA
 author_website_url: "http://motiwari.com"
 
@@ -54,24 +56,22 @@ plugins:
 urls:
     - text: Home
       url: /
-    # - text: Biography
-    #   url: /biography/
+    - text: Biography
+      url: /biography/
     # - text: Projects
     #   url: /projects/
     # - text: Publications and Talks
     #   url: /refs/
     # - text: Collaborations
     #   url: /collaborations/
-    # - text: Resume
-    #   url: /resume/
+    - text: Resume
+      url: resume.pdf
     # - text: Coursework
     #   url: /coursework/
     # - text: FAQ
     #   url: /faq/
     # - text: Feedback
     #   url: /feedback/
-    # - text: Contact
-    #   url: /contact/
 
 author_work_experiences:
             - company_name: Facebook (and Oculus)
