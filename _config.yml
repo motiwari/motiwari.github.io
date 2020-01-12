@@ -61,7 +61,7 @@ urls:
     - text: Home
       url: /
     - text: Biography
-      url: /biography/
+      url: /biography
     # - text: Projects
     #   url: /projects/
     # - text: Publications and Talks
@@ -71,7 +71,7 @@ urls:
     # - text: Coursework
     #   url: /coursework/
     - text: FAQ
-      url: /faq/
+      url: /faq
     # - text: Feedback
     #   url: /feedback/
 
