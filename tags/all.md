@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: /blog/tags/
+permalink: /projects/tags/
 ---
 
- 
+
 
 <h3>  {{ page.title }} </h3>
 
@@ -12,7 +12,7 @@ permalink: /blog/tags/
   <div class="category-box" >
     {% capture tag_name %}{{ tag | first }}{% endcapture %}
     <div id="#{{ tag_name | slugize }}"></div>
-    <h4 class="tag-head"><a href="{{ site.baseurl }}/blog/categories/{{ tag_name }}">{{ tag_name }}</a></h4>
+    <h4 class="tag-head"><a href="{{ site.baseurl }}/projects/categories/{{ tag_name }}">{{ tag_name }}</a></h4>
     <a name="{{ tag_name | slugize }}"></a>
      {% for post in site.tags[tag_name] %}
     <article class="center">
@@ -20,9 +20,7 @@ permalink: /blog/tags/
     </article>
 
     {% endfor %}
-    
+
   </div>
 {% endfor %}
 </div>
-
-

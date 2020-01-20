@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Jekyll
-permalink: /blog/tags/jekyll
+permalink: /projects/tags/jekyll
 ---
- 
+
 <h5> Posts by Tag : {{ page.title }} </h5>
 
 <div class="card">

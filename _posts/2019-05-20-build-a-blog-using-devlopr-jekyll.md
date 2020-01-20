@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Build and Deploy a blog using devlopr-jekyll and Github Pages
+title: Build and Deploy a projects using devlopr-jekyll and Github Pages
 author: Sujay Kundu
 date: '2019-05-20 14:35:23 +0530'
 category: guides
-summary: Getting Started - How to build a blog using devlopr-jekyll and Github Pages
+summary: Getting Started - How to build a projects using devlopr-jekyll and Github Pages
 thumbnail: devlopr.png
 ---
 
-If you are a developer, who want a fast static website with no cost for hosting/domain stuff. This guide will help you setup a blog for you for free using [devlopr-jekyll](https://github.com/sujaykundu777/devlopr-jekyll.git) theme
+If you are a developer, who want a fast static website with no cost for hosting/domain stuff. This guide will help you setup a projects for you for free using [devlopr-jekyll](https://github.com/sujaykundu777/devlopr-jekyll.git) theme
 
 Before Proceeding Lets Setup Our Development Environment :
 
@@ -34,7 +34,7 @@ Bundler version 2.0.1
 ```
 
 
-##### **Step 2** - Create a new repo for your blog in [Github](https://github.com) using [devlopr starter](https://github.com/sujaykundu777/devlopr-starter)
+##### **Step 2** - Create a new repo for your projects in [Github](https://github.com) using [devlopr starter](https://github.com/sujaykundu777/devlopr-starter)
 
 Go to [devlopr starter](https://github.com/sujaykundu777/devlopr-starter). Click on the "Green" - **Use this Template** Button.
 
@@ -46,7 +46,7 @@ Create a new repo with name as "**yourusername.github.io**" replacing youruserna
 
 
 **Note :**
-You can use any other name like "my-blog" but then , if you are using github pages for deployment. your site will be built at the subdomain - yourusername.github.io/my-blog. 
+You can use any other name like "my-projects" but then , if you are using github pages for deployment. your site will be built at the subdomain - yourusername.github.io/my-projects. 
 
 ##### **Step 3** - Clone your repo locally 
 
@@ -68,7 +68,7 @@ Open the files using VSCode and edit **_config.yml** and edit with your details:
 ![devlopr starter template](/assets/img/posts/4.png){:class="img-fluid"}
 
 - **_config.yml** file - replace with your own details 
-- **_posts** - Add your blog posts here 
+- **_posts** - Add your projects posts here 
 - **_includes** - You can replace the contents of the files with your data. (contains widgets)
 - **_assets/img** - Add all your images here
 
@@ -93,14 +93,14 @@ After you think its fine, proceed with the next step !
 
 ##### **Step 6** - Publish Your Changes
 
-After you are happy with your blog. It's time to show it to the world. There are several ways which are possible for deploying the blog for free. Below is the list of build guides :
+After you are happy with your projects. It's time to show it to the world. There are several ways which are possible for deploying the projects for free. Below is the list of build guides :
 
 
-Move to your Blog Directory and commit your Changes Locally
+Move to your projects Directory and commit your Changes Locally
 
 `$ cd yourusername.github.io`
 `$ git add .`
-`$ git commit -m "made changes to my blog"`
+`$ git commit -m "made changes to my projects"`
 
 Push your changes to Github
 
@@ -108,7 +108,7 @@ Push your changes to Github
 
 ##### **Step 7** - Congrats - Your Site is Live
 
-You can visit your blog at [http://yourusername.github.io](http://yourusername.github.io)
+You can visit your projects at [http://yourusername.github.io](http://yourusername.github.io)
 
 
 

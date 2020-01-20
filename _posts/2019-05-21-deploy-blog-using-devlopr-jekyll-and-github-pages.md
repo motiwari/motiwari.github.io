@@ -1,16 +1,16 @@
 ---
 layout: post
-title: How to deploy devlopr-jekyll Blog using Github Pages and Travis
+title: How to deploy devlopr-jekyll projects using Github Pages and Travis
 author: Sujay Kundu
 date: '2019-05-21 14:35:23 +0530'
 category: guides
-summary: Deployment Guide for devlopr-jekyll blog using Github Pages and Travis CI
+summary: Deployment Guide for devlopr-jekyll projects using Github Pages and Travis CI
 thumbnail: deploy-using-github-pages-and-travis.png
 ---
 
-This guide assumes that you already have created your blog and tested locally. If not please follow this tutorial : [Create a Blog using devlopr jekyll](https://devlopr.netlify.com/guides/2017/11/19/build-a-blog-using-devlopr-jekyll). Then come back and proceed with the deployment process.
+This guide assumes that you already have created your projects and tested locally. If not please follow this tutorial : [Create a projects using devlopr jekyll](https://devlopr.netlify.com/guides/2017/11/19/build-a-projects-using-devlopr-jekyll). Then come back and proceed with the deployment process.
 
-In this Guide, we are using Github Pages and Travis CI for deploying our blog. Sometimes Github Pages does not support external third party plugins. In that case we deploy our blog using Travis CI, it automatically builds our website and pushes the static files of the site to a deployment branch. Which then Github Pages uses to render the site. Hope you get it :P !
+In this Guide, we are using Github Pages and Travis CI for deploying our projects. Sometimes Github Pages does not support external third party plugins. In that case we deploy our projects using Travis CI, it automatically builds our website and pushes the static files of the site to a deployment branch. Which then Github Pages uses to render the site. Hope you get it :P !
 
 We might need to instruct Travis CI to follow deployment instructions. Copy the below content in `.travis.yml` file:
 
@@ -87,7 +87,7 @@ Commit your local changes in gh-pages branch
 `git commit -m "added new post"`
 `git push origin gh-pages`
 
-After push, Travis will automatically run a build process and deploy your blog.
+After push, Travis will automatically run a build process and deploy your projects.
 
 ![deploy using travis](/assets/img/posts/d5.png){:class="img-fluid"}
 
@@ -95,4 +95,4 @@ You can visit your site at https://yourusername.github.io
 
 ![deploy using travis](/assets/img/posts/d6.png){:class="img-fluid"}
 
-Done ! Enjoy your brand new devlopr-jekyll blog. You can visit the site at https://yourusername.github.io
+Done ! Enjoy your brand new devlopr-jekyll projects. You can visit the site at https://yourusername.github.io

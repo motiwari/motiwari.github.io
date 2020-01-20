@@ -1,6 +1,6 @@
 # Welcome to Jekyll!
 #
-# This config file is meant for settings that affect your whole blog, values
+# This config file is meant for settings that affect your whole site, values
 # which you are expected to set up once and rarely edit after that. If you find
 # yourself editing this file very often, consider using Jekyll's data files
 # feature for the data you need to update frequently.
@@ -22,7 +22,7 @@ title: Mo Tiwari
 email: motiwari at institution name + gTLD
 description: >- # this means to ignore newlines until "baseurl:"
   Mo Tiwari's webpage, projects, biography, resume, and FAQ
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /projects
 url: "https://motiwari.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 github_username: motiwari
@@ -201,7 +201,7 @@ plugins:
 # algolia search
 # algolia:
 #   application_id: D9WA1YKTRQ
-#   index_name: blog_posts # You can replace that with whatever name you want
+#   index_name: project_posts # You can replace that with whatever name you want
 #   files_to_exclude: []
 #   nodes_to_index: 'article'
 #   search_only_api_key: 58ffdd7cd6c45ec1577a7fcd789b1b9a
@@ -209,7 +209,7 @@ plugins:
 # pagination of posts
 # paginate: 8
 # per_page: 4
-# paginate_path: "/blog/page/:num/"
+# paginate_path: "/projects/page/:num/"
 
 # minify
 compress_html:
