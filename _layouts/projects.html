@@ -8,19 +8,11 @@ layout: default
     <ul >
       <div class="row">
         {% for post in paginator.posts %}
-        <div class="card projects-post">
-          <img class="card-img-top" src="/assets/img/posts/{{ post.thumbnail }}" alt="{{ post.title }}">
-
-          <div class="card-body center">
-            <img src="/assets/img/{{ site.author_logo }}" class="author-profile-img">
-            <h4 class="card-title">{{ post.title }}</h4>
-            <h6 class="card-subtitle mb-2 text-muted">{{ post.date | date: "%b %-d, %Y" }}</h6>
-            <p class="card-text">{{ post.summary }} </p>
-            <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="btn btn-primary btn-lg">Read</a>
-            <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span>
+        <a href="{{ post.url | prepend: site.baseurl }}" class="btn btn-primary btn-lg post-btn" id="post-btn-{{post.post_id}}">
+          <div class="card projects-post" id="card-projects-post-{{post.post_id}}">
+            {{ post.title }}
           </div>
-
-        </div>
+        </a>
         {% endfor %}
       </div>
     </ul>
@@ -60,5 +52,5 @@ layout: default
 
 </div>
 
-  {%- include projects_sidebar.html -%}
+  <!-- {%- include projects_sidebar.html -%} -->
 </div>

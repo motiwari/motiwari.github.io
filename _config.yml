@@ -173,9 +173,9 @@ plugins:
 # - jekyll-archives
 
 # pagination of posts
+paginate_path: "/projects/page:num/"
 paginate: 8
 per_page: 4
-paginate_path: "/projects/page/:num/"
 
 # minify
 compress_html:
