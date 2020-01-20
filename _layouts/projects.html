@@ -10,6 +10,7 @@ layout: default
         {% for post in paginator.posts %}
         <div class="card projects-post">
           <img class="card-img-top" src="/assets/img/posts/{{ post.thumbnail }}" alt="{{ post.title }}">
+
           <div class="card-body center">
             <img src="/assets/img/{{ site.author_logo }}" class="author-profile-img">
             <h4 class="card-title">{{ post.title }}</h4>
@@ -18,6 +19,7 @@ layout: default
             <a href="{{ post.url | prepend: site.baseurl }}" data-disqus-identifier="{{ post.url }}" class="btn btn-primary btn-lg">Read</a>
             <span class="disqus-comment-count" data-disqus-identifier="{{ post.url }}"></span>
           </div>
+
         </div>
         {% endfor %}
       </div>
