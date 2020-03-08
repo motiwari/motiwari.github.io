@@ -182,8 +182,7 @@ plugins:
 
 # pagination of posts
 paginate_path: "/projects/page:num/"
-paginate: 8
-per_page: 4
+paginate: 12
 
 # minify
 compress_html:
