@@ -2,7 +2,7 @@
 title: Resume
 menus: header
 layout: resume
-permalink: /resume/
+permalink: /cv/
 redirect_to:
   - resume.pdf
 ---

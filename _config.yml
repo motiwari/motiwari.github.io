@@ -16,25 +16,32 @@ website: motiwari.com
 urls:
     - text: Home
       url: /
+      display: True
     - text: Biography
       url: /biography/
+      display: True
     # - text: Projects
     #   url: /projects/
     # - text: Publications and Talks
     #   url: /refs/
-    - text: Resume
+    - text: Résumé
       url: /resume.pdf
+      display: True
+    - text: CV
+      url: /cv/
     # - text: Coursework
     #   url: /coursework/
     - text: FAQ
       url: /faq/
+      display: True
     - text: Feedback
       url: /feedback/
+      display: True
 
 author_logo: profile.png
 author: Mo Tiwari
 author_bio: >-
-  Thank you for visiting my website! I'm currently a Ph.D. student in Computer
+  Hi! I'm currently a Ph.D. student in Computer
   Science at Stanford University, advised by
   <a href="http://robots.stanford.edu/personal.html">Sebastian Thrun</a> (funding advisor) and
   <a href="https://stanford.edu/~cpiech/bio/index.html">Chris Piech</a>.
@@ -98,11 +105,11 @@ author_work_experiences:
 
 author_education_details:
     - college_logo: stanford.png
-      college_name: Stanford University, GPA&#58; 4.1
+      college_name: Stanford University, GPA&#58; 4.2
       college_degree: Ph.D. in Computer Science
       description: >-
         Focusing on artificial intelligence and machine
-        learning methods with applications to healthcare. Also
+        learning methods, with applications to healthcare. Also
         completed the M.S. degree during the Ph.D.
       visibility: true
     - college_logo: caltech.png
@@ -122,7 +129,7 @@ author_education_details:
       visibility: true
 
 accomplishments:
-  - In 2017, I was admitted to Stanford's Ph.D. program in Computer Science (among others).
+  - In 2017, I was admitted to Stanford's Ph.D. program in Computer Science and Berkeley's Ph.D. program in EECS (among others).
   - In 2015, I was admitted to MIT's Ph.D. program in Physics (among others) (I declined).
   - >-
     In 2013, I graduated with Honors in the top 10% and top 20 students
@@ -170,6 +177,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-algolia
+  - jekyll-redirect-from
 # - jekyll-archives
 
 # pagination of posts
