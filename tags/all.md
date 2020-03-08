@@ -1,9 +1,7 @@
 ---
+permalink: "/projects/tags/"
 layout: page
-permalink: /projects/tags/
 ---
-
-
 
 <h3>  {{ page.title }} </h3>
 

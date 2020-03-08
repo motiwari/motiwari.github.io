@@ -1,10 +1,11 @@
 ---
-layout: post
 title: Using Satellite Imagery to Measure Building Energy Consumption
-category: AI, Satellite Imagery
+date: 2019-05-20 00:00:00 Z
+categories:
+- AI, Satellite Imagery
+layout: post
 summary: Summary of Using Satellite Imagery to Measure Building Energy Consumption
 post_id: 1
-
 ---
 
 ##### **Test Header** - Test subheader

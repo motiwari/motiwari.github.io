@@ -1,7 +1,7 @@
 ---
-layout: page
 title: Jekyll
-permalink: /projects/tags/jekyll
+permalink: "/projects/tags/jekyll"
+layout: page
 ---
 
 <h5> Posts by Tag : {{ page.title }} </h5>
