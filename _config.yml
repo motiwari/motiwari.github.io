@@ -140,8 +140,6 @@ plugins:
 - jekyll-redirect-from
 paginate_path: "/projects/page:num/"
 paginate: 12
-
-# minify
 compress_html:
   clippings: all
   comments:
