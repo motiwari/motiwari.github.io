@@ -1,8 +1,9 @@
 ---
 title: Resume
+permalink: "/resume/"
 menus: header
 layout: resume
-permalink: /resume/
 redirect_to:
-  - resume.pdf
+- resume.pdf
 ---
+

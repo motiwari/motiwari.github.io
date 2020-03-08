@@ -1,6 +1,7 @@
 ---
 title: Feedback
+permalink: "/feedback/"
 menus: header
 layout: feedback
-permalink: /feedback/
 ---
+

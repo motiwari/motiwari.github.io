@@ -1,9 +1,9 @@
 ---
-layout: page
 title: Guides
-permalink: /projects/categories/guides
+permalink: "/projects/categories/guides"
+layout: page
 ---
- 
+
 <h5> Posts by Category : {{ page.title }} </h5>
 
 <div class="card">

@@ -1,8 +1,7 @@
 ---
+permalink: "/projects/categories/"
 layout: page
-permalink: /projects/categories/
 ---
- 
 
 <h3>  {{ page.title }} </h3>
 
