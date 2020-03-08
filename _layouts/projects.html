@@ -2,23 +2,25 @@
 layout: default
 ---
 
-<div class="row">
+<div class="row" id="parent-projects-row">
 
   {%- include projects_sidebar.html -%}
 
-  <div class="col-lg-9 col-md-4">
+  <div class="col-lg-10 col-md-10" id="projects-RHS">
     <!-- projects Posts -->
-    <ul id="posts-ul">
-      <div class="row">
-        {% for post in paginator.posts %}
-        <a href="{{ post.url | prepend: site.baseurl }}" class="post-btn" id="post-btn-{{post.post_id}}">
-          <div class="card projects-post" id="card-projects-post-{{post.post_id}}" align=center>
-            <p id="post-title-text-{{post.post_id}}">{{ post.title }}</p>
-          </div>
-        </a>
-        {% endfor %}
-      </div>
-    </ul>
+    <div class="card" class="projects-card" id="projects-card">
+      <ul id="posts-ul">
+        <div class="row" id="child-projects-row">
+          {% for post in paginator.posts %}
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-btn" id="post-btn-{{post.post_id}}">
+            <div class="card projects-post" id="card-projects-post-{{post.post_id}}" align=center>
+              <p id="post-title-text-{{post.post_id}}">{{ post.title }}</p>
+            </div>
+          </a>
+          {% endfor %}
+        </div>
+      </ul>
+    </div>
 
     <!-- Pagination links -->
     <div class="row center">
