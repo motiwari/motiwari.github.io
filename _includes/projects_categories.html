@@ -1,8 +1,8 @@
-{% for tag in site.categories %}
-  {% capture tag_name %}{{ tag | first }}{% endcapture %}
-  <div id="#{{ tag_name | slugize }}"></div>
-  <li class="tag-head">
-      <a href="{{ site.baseurl }}/projects/categories/{{ tag_name }}">{{ tag_name }}</a>
+{% for category in site.categories %}
+  {% capture category_name %}{{ category | first }}{% endcapture %}
+  <div id="#{{ category_name | replace: "_", " " }}"></div>
+  <li class="category-head">
+      <a href="{{ site.baseurl }}/projects/categories/{{ category_name}}">{{ category_name | replace: "_", " " }}</a>
   </li>
-  <a name="{{ tag_name | slugize }}"></a>
+  <a name="{{ category_name}}"></a>
 {% endfor %}
