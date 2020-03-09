@@ -67,6 +67,11 @@
 
 
 // INSIDE a post ///////////////////////
+#project-navbar {
+  margin-top: 20px !important;
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+}
 #post-card-header-1 {
   color: purple;
   width: 100%;
@@ -175,6 +180,10 @@ header {
 
 #navigation {
     margin-top: 50px;
+}
+
+.nav {
+  margin: 20px;
 }
 
 .nav-link {

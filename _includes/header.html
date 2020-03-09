@@ -35,25 +35,23 @@
                     </a>
                     {% endif %}
                 </p>
-
             </div>
+
             <div class="col-md-6 center">
+              <ul class="nav justify-content-end" id="navigation">
+              {% for i in site.urls %}
+                {% if i.display %}
+                  <li class="nav-item">
+                      <a class="nav-link" href="{{ i.url }}">{{ i.text }}</a>
+                  </li>
+                {% endif %}
+              {% endfor %}
 
-                    <ul class="nav justify-content-end" id="navigation">
-                    {% for i in site.urls %}
-                      {% if i.display %}
-                        <li class="nav-item">
-                            <a class="nav-link" href="{{ i.url }}">{{ i.text }}</a>
-                        </li>
-                      {% endif %}
-                    {% endfor %}
-
-                     <!-- TODO: Implement a search
-                     <li class="nav-item">
-                         <a class="nav-link" href="{{ site.url}}/search/"><i class="fa fa-search" aria-hidden="true"></i></a>
-                     </li> -->
-                    </ul>
-
+               <!-- TODO: Implement a search
+               <li class="nav-item">
+                   <a class="nav-link" href="{{ site.url}}/search/"><i class="fa fa-search" aria-hidden="true"></i></a>
+               </li> -->
+              </ul>
             </div>
         </div>
     </div>

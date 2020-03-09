@@ -29,6 +29,9 @@ urls:
 - text: Résumé
   url: "/resume.pdf"
   display: true
+- text: Projects
+  url: "/projects"
+  display: true
 - text: CV
   url: "/cv/"
 - text: FAQ
