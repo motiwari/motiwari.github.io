@@ -42,9 +42,7 @@ urls:
 author_logo: profile.png
 author: Mo Tiwari
 author_bio: Hi! I'm currently a Ph.D. student in Computer Science at Stanford University,
-  advised by <a href="http://robots.stanford.edu/personal.html">Sebastian Thrun</a>
-  (funding advisor) and <a href="https://stanford.edu/~cpiech/bio/index.html">Chris
-  Piech</a>.
+  advised by <a href="http://robots.stanford.edu/personal.html">Sebastian Thrun</a>.
 author_bio2: I have an unconventional path to the Ph.D. program in that I worked for
   4 years in between my undergraduate and graduate studies. I have an eclectic career
   spanning particle physics, quantum computation, finance, cybersecurity, virtual
