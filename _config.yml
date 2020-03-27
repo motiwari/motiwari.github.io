@@ -39,7 +39,6 @@ urls:
   display: true
 - text: Coursework
   url: "/coursework/"
-  display: true
 - text: FAQ
   url: "/faq/"
   display: true
