@@ -1,6 +1,6 @@
 ---
-title: Artificial Intelligence
-permalink: "/projects/categories/AI"
+title: Artificial Intelligence and Machine Learning
+permalink: "/projects/categories/ai_and_ml"
 layout: page
 ---
 
