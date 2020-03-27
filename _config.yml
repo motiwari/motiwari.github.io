@@ -31,8 +31,15 @@ urls:
   display: true
 - text: Projects
   url: "/projects"
+  display: true
 - text: CV
   url: "/cv/"
+- text: Publications and Talks
+  url: "/pubs/"
+  display: true
+- text: Coursework
+  url: "/coursework/"
+  display: true
 - text: FAQ
   url: "/faq/"
   display: true
@@ -49,7 +56,7 @@ author_bio2: I have an unconventional path to the Ph.D. program in that I worked
   and augmented reality, artificial intelligence, machine learning, and healthcare
   -- largely because I love learning new things about math, physics, statistics, and
   computer science!
-author_bio3: If you're interested in collaborating, please get in touch -- especially
+author_bio3: For a more formal biography, check out <a href="/biography/">my biography</a>. If you're interested in collaborating, please get in touch -- especially
   if you're at Stanford!
 author_location: Stanford, CA
 author_website_url: http://motiwari.com
