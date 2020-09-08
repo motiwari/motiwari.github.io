@@ -46,17 +46,21 @@ urls:
   display: true
 author_logo: profile.png
 author: Mo Tiwari
-author_bio: Hi! I'm currently a third year Ph.D. student in Computer Science at Stanford University, advised
+author_bio: Hi! I'm currently a fourth year Ph.D. student in Computer Science at Stanford University, advised
   by <a href="http://robots.stanford.edu/index.html">Sebastian Thrun</a> (funding advisor) and <a href="https://stanford.edu/~cpiech/bio/index.html">Chris Piech</a>.
-  I am grateful to be supported by a <a href="https://vpge.stanford.edu/fellowships-funding/sigf/details">Stanford Interdisciplinary Graduate Fellowship (SIGF)</a>.
-author_bio2: I have an unconventional path to the Ph.D. program in that I worked for
+  At Stanford, I am affiliated with the <a href="https://ai.stanford.edu/">Stanford Artificial Intelligence Laboratory (SAIL)</a> and the
+  <a href="http://statsml.stanford.edu/">Statistical Machine Learning (StatsML) group</a>.
+  I am grateful to be supported by a <a href="https://vpge.stanford.edu/fellowships-funding/sigf/details">Stanford Interdisciplinary Graduate Fellowship (SIGF)</a>,
+  a <a href="https://www.jpmorgan.com/global/technology/ai/awards/phd-fellowship-award-recipients-2020">J.P. Morgan AI Research Ph.D. Fellowship</a>, and an
+  <a href="https://orise.orau.gov/internships-fellowships/index.html">Oak Ridge Institute for Science and Education (ORISE) Fellowship</a>.
+author_bio2: I had an unconventional path to the Ph.D. program in that I worked for
   4 years in between my undergraduate and graduate studies. I have an eclectic career
   spanning particle physics, quantum computation, finance, cybersecurity, virtual
   and augmented reality, artificial intelligence, machine learning, and healthcare
   -- largely because I love learning new things about math, physics, statistics, and
   computer science!
 author_bio3: For a more formal biography, check out <a href="/biography/">my biography</a>. If you're interested in collaborating, please get in touch -- especially
-  if you're at Stanford!
+  if you're at Stanford! Our group is also open to applications from students; see the <a href="/faq/">FAQ</a> on how to apply.
 author_location: Stanford, CA
 author_website_url: http://motiwari.com
 author_work_experiences:
@@ -65,7 +69,7 @@ author_work_experiences:
   dates: 2015-2017
   designation: Software Engineer, Technical Lead - Security
   description:
-  - Technical lead of the 4-person team building ThreatExchange (fb.me/TX), Facebook’s
+  - Technical lead of the 4-person team building <a href="https://developers.facebook.com/docs/threat-exchange">ThreatExchange</a>, Facebook’s
     platform for sharing cybersecurity information
   - Led product and feature development through 5 major releases that grew the number
     of enterprise customers from 92 to 500+
@@ -95,15 +99,16 @@ author_work_experiences:
 author_education_details:
 - college_logo: stanford.png
   college_name: Stanford University, GPA&#58; 4.2
-  college_degree: Ph.D. in Computer Science (in progress, M.S. completed)
-  description: Focusing on artificial intelligence and machine learning methods, with
-    applications to healthcare. Also completed the M.S. degree during the Ph.D.
+  college_degree: Ph.D. in Computer Science (Expected 2022, M.S. completed)
+  description: I focus primarily on artificial intelligence and machine learning methods, with an
+    emphasis on statistical machine learning and applications to healthcare.
+    I also completed the M.S. degree during the Ph.D.
   visibility: true
 - college_logo: caltech.png
   college_name: Caltech, GPA&#58; 4.0+
   college_degree: B.S. in Mathematics, B.S. in Physics (double major)
   description: I double majored in Mathematics and Physics and graduated in the top
-    10% of my class (top 20 students), with Honors. I was even ranked 3rd for most of my time
+    5% of my class (top 15 students), with Honors. I was even ranked 3rd for most of my time
     there!
   visibility: true
 - college_logo: columbia.png
@@ -116,14 +121,13 @@ accomplishments:
 - In 2017, I was admitted to Stanford's Ph.D. program in Computer Science and Berkeley's
   Ph.D. program in EECS (among others).
 - In 2015, I was admitted to MIT's Ph.D. program in Physics (among others) (I declined).
-- In 2013, I graduated with Honors in the top 10% and top 20 students from Caltech,
+- In 2013, I graduated with Honors in the top 5% and top 15 students from Caltech,
   with a double major in mathematics and physics.
 - In 2010, I was one of 7 transfer students accepted to Caltech.
 - In 2009, I won third place in category at the Intel ISEF, an international competition
   for high school students.
 linkedin_username: motiwari
 facebook_username: mtiwari
-twitter_username: motiwari
 disqus_shortname: motiwari
 formspree_email: motiwari@stanford.edu
 markdown: kramdown
