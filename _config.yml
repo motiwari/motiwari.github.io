@@ -67,7 +67,7 @@ author_work_experiences:
   dates: 2015-2017
   designation: Software Engineer, Technical Lead - Security
   description:
-  - Technical lead of the 4-person team building <a href="https://developers.facebook.com/docs/threat-exchange">ThreatExchange</a>, Facebook’s
+  - Technical lead of the 4-person team building <a href="https://developers.facebook.com/docs/threat-exchange" target="_blank">ThreatExchange</a>, Facebook’s
     platform for sharing cybersecurity information
   - Led product and feature development through 5 major releases that grew the number
     of enterprise customers from 92 to 500+
