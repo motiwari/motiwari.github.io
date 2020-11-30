@@ -78,6 +78,7 @@ author_work_experiences:
   dates: 2014 - 2015
   designation: Software Engineer and Security Researcher
   description:
+  - 5th fulltime employee; company was later acquired for $800MM by Palo Alto Networks
   - Performed the first systematic, continuous, and Internet-scale capture and analysis
     of device data and security vulnerabilities
   - Built backend and frontend infrastructure to help analysts understand terabytes

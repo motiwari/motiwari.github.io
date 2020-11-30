@@ -4,6 +4,6 @@ permalink: "/cv/"
 menus: header
 layout: resume
 redirect_to:
-- resume.pdf
+- cv.pdf
 ---
 
