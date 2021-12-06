@@ -46,7 +46,7 @@ urls:
   display: true
 author_logo: profile.png
 author: Mo Tiwari
-author_bio: Hi! I'm currently a fourth year Ph.D. student in Computer Science at Stanford University, advised
+author_bio: Hi! I'm currently a fifth year Ph.D. student in Computer Science at Stanford University, advised
   by <a href="http://robots.stanford.edu/index.html">Sebastian Thrun</a> (funding advisor) and <a href="https://stanford.edu/~cpiech/bio/index.html">Chris Piech</a>.
   I am grateful to be supported by a Thomas C. Nelson <a href="https://vpge.stanford.edu/fellowships-funding/sigf/details">Stanford Interdisciplinary Graduate Fellowship (SIGF)</a>,
   a <a href="https://www.jpmorgan.com/global/technology/ai/awards/phd-fellowship-award-recipients-2020">J.P. Morgan AI Research Ph.D. Fellowship</a>, and multiple
@@ -60,7 +60,7 @@ author_bio2: I had an unconventional path to the Ph.D. program in that I worked 
 author_bio3: For a more formal biography, check out <a href="/biography/">my biography</a>. If you're interested in collaborating, please get in touch -- especially
   if you're at Stanford! Our group is also open to applications from students; see the <a href="/faq/">FAQ</a> on how to apply.
 author_location: Stanford, CA
-author_website_url: //motiwari.com
+author_website_url: motiwari.com
 author_work_experiences:
 - company_name: Facebook (and Oculus)
   company_logo: facebook.png
@@ -78,13 +78,12 @@ author_work_experiences:
   dates: 2014 - 2015
   designation: Software Engineer and Security Researcher
   description:
-  - 5th fulltime employee; company was later acquired for $800MM by Palo Alto Networks
+  - Fifth fulltime employee; company was later acquired for $800MM by Palo Alto Networks
   - Performed the first systematic, continuous, and Internet-scale capture and analysis
     of device data and security vulnerabilities
   - Built backend and frontend infrastructure to help analysts understand terabytes
     of prostitution advertisements and uncover human trafficking
-  - Work indirectly led to dozens of arrests of traffickers and hundreds of victims
-    saved
+  - Work indirectly led to arrests of traffickers and rescue of victims
   visibility: true
 - company_name: DRW
   company_logo: drw.png
@@ -111,7 +110,7 @@ author_education_details:
     there!
   visibility: true
 - college_logo: columbia.png
-  college_name: Columbia University, GPA&#58; 4.1
+  college_name: Columbia University, GPA&#58; 4.0+
   college_degree: B.A. in Mathematics, B.A. in Physics (incomplete)
   description: While I loved Columbia and living in NYC, I transferred to Caltech
     after my freshman year.
