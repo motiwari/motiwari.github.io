@@ -15,9 +15,6 @@ email: motiwari at institution name + gTLD
 description: Mo Tiwari's webpage, projects, biography, resume, and FAQ
 baseurl: ''
 url: //motiwari.github.io
-github_username: motiwari
-facebook: https://www.facebook.com/mtiwari
-linkedin: https://www.linkedin.com/in/motiwari
 website: //motiwari.com
 urls:
 - text: Home
@@ -124,8 +121,10 @@ accomplishments:
 - In 2010, I was one of 7 transfer students accepted to Caltech.
 - In 2009, I won third place in category at the Intel ISEF, an international competition
   for high school students.
+github_username: motiwari
 linkedin_username: motiwari
 facebook_username: mtiwari
+twitter_username: mo_tiwari
 disqus_shortname: motiwari
 formspree_email: motiwari@stanford.edu
 new_formspring_endpoint: xjvjvlpb
