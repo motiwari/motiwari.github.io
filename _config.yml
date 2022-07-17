@@ -14,8 +14,8 @@ collections:
 email: motiwari at institution name + gTLD
 description: Mo Tiwari's webpage, projects, biography, resume, and FAQ
 baseurl: ''
-url: https://motiwari.github.io
-website: https://motiwari.com
+url: //motiwari.github.io
+website: //motiwari.com
 urls:
 - text: Home
   url: "/"
