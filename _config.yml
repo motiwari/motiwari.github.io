@@ -43,12 +43,12 @@ urls:
   display: true
 author_logo: profile.png
 author: Mo Tiwari
-author_bio: Hi! I'm currently a fifth year Ph.D. student in Computer Science at Stanford University, advised
+author_bio: Hi! I'm a recent Ph.D. graduate from the Computer Science program at Stanford University, where I was advised
   by <a href="http://robots.stanford.edu/index.html">Sebastian Thrun</a> and <a href="https://stanford.edu/~cpiech/bio/index.html">Chris Piech</a>.
-  I am grateful to be supported by a Thomas C. Nelson <a href="https://vpge.stanford.edu/fellowships-funding/sigf/details">Stanford Interdisciplinary Graduate Fellowship (SIGF)</a>,
+  I am grateful to have been supported by a Thomas C. Nelson <a href="https://vpge.stanford.edu/fellowships-funding/sigf/details">Stanford Interdisciplinary Graduate Fellowship (SIGF)</a>,
   a <a href="https://www.jpmorgan.com/global/technology/ai/awards/phd-fellowship-award-recipients-2020">J.P. Morgan AI Research Ph.D. Fellowship</a>,
   a <a href="https://datascience.stanford.edu/about/people/data-science-scholars"> Stanford Data Science Scholarship</a>, 
-  and multiple <a href="https://orise.orau.gov/internships-fellowships/index.html">Oak Ridge Institute for Science and Education (ORISE) Fellowships</a>.
+  and multiple <a href="https://orise.orau.gov/internships-fellowships/index.html">Oak Ridge Institute for Science and Education (ORISE) Fellowships</a> during my Ph.D.
 author_bio2: I had an unconventional path to the Ph.D. program in that I worked for
   4 years in between my undergraduate and graduate studies. I have an eclectic career
   spanning particle physics, quantum computation, finance, cybersecurity, virtual
@@ -94,10 +94,10 @@ author_work_experiences:
   visibility: true
 author_education_details:
 - college_logo: stanford.png
-  college_name: Stanford University, GPA&#58; 4.2
-  college_degree: Ph.D. in Computer Science (Expected 2022, M.S. completed)
-  description: I focus primarily on artificial intelligence and machine learning methods, with an
-    emphasis on statistical machine learning and applications to healthcare.
+  college_name: Stanford University, GPA&#58; 4.2+
+  college_degree: Ph.D. in Computer Science
+  description: I focused primarily on artificial intelligence and machine learning methods, with an
+    emphasis on statistical machine learning and accelerating widely-used algorithms with adaptive sampling.
     I also completed the M.S. degree during the Ph.D.
   visibility: true
 - college_logo: caltech.png
