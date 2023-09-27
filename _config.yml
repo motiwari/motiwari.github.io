@@ -11,7 +11,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: motiwari at institution name + gTLD
+email: mohit + LAST NAME + "nyc" AT gmail DOT com
 description: Mo Tiwari's webpage, projects, biography, resume, and FAQ
 baseurl: ''
 url: //motiwari.github.io
