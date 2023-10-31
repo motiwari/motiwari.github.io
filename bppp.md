@@ -4,5 +4,5 @@ permalink: "/bppp/"
 menus: header
 layout: default
 redirect_to:
-- bppp.pdf
+- https://arxiv.org/abs/2310.18844
 ---
