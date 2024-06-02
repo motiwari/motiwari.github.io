@@ -43,7 +43,8 @@ urls:
   display: true
 author_logo: profile.png
 author: Mo Tiwari
-author_bio: Hi! I'm a recent Ph.D. graduate from the Computer Science program at Stanford University, where I was advised
+author_bio: Hi! I'm currently a Member of Technical Staff at OpenAI.
+  I recently graduated from the Computer Science Ph.D. program at Stanford University, where I was advised
   by <a href="http://robots.stanford.edu/index.html">Sebastian Thrun</a> and <a href="https://stanford.edu/~cpiech/bio/index.html">Chris Piech</a>.
   I am grateful to have been supported by a Thomas C. Nelson <a href="https://vpge.stanford.edu/fellowships-funding/sigf/details">Stanford Interdisciplinary Graduate Fellowship (SIGF)</a>,
   a <a href="https://www.jpmorgan.com/global/technology/ai/awards/phd-fellowship-award-recipients-2020">J.P. Morgan AI Research Ph.D. Fellowship</a>,
@@ -57,9 +58,16 @@ author_bio2: I had an unconventional path to the Ph.D. program in that I worked 
   computer science!
 author_bio3: For a more formal biography, check out <a href="/biography/">my biography</a>. If you're interested in collaborating, please get in touch -- especially
   if you're at Stanford! Our group is also open to applications from students; see the <a href="/faq/">FAQ</a> on how to apply.
-author_location: Stanford, CA
+author_location: San Francisco, CA
 author_website_url: motiwari.com
 author_work_experiences:
+- company_name: OpenAI
+  company_logo: openai.png
+  dates: 2024-Present
+  designation: Member of Technical Staff
+  description:
+  - Under NDA. Sorry!
+  visibility: true
 - company_name: Facebook (and Oculus)
   company_logo: facebook.png
   dates: 2015-2017
@@ -114,6 +122,7 @@ author_education_details:
     after my freshman year.
   visibility: true
 accomplishments:
+- In 2023, I graduated from the Computer Science Ph.D. program at Stanford University.
 - In 2017, I was admitted to Stanford's Ph.D. program in Computer Science and Berkeley's
   Ph.D. program in EECS (among others).
 - In 2015, I was admitted to MIT's Ph.D. program in Physics (among others) (I declined).
