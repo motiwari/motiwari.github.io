@@ -43,8 +43,8 @@ urls:
   display: true
 author_logo: profile.png
 author: Mo Tiwari
-author_bio: Hi! I'm currently a Member of Technical Staff at OpenAI.
-  I recently graduated from the Computer Science Ph.D. program at Stanford University, where I was advised
+author_bio: Hi! I'm currently an AI Researcher at Google. Previously, I was a Member of Technical Staff at OpenAI
+  and graduated from the Computer Science Ph.D. program at Stanford University, where I was advised
   by <a href="http://robots.stanford.edu/index.html">Sebastian Thrun</a> and <a href="https://stanford.edu/~cpiech/bio/index.html">Chris Piech</a>.
   I am grateful to have been supported by a Thomas C. Nelson <a href="https://vpge.stanford.edu/fellowships-funding/sigf/details">Stanford Interdisciplinary Graduate Fellowship (SIGF)</a>,
   a <a href="https://www.jpmorgan.com/global/technology/ai/awards/phd-fellowship-award-recipients-2020">J.P. Morgan AI Research Ph.D. Fellowship</a>,
@@ -60,12 +60,19 @@ author_bio3: For a more formal biography, check out <a href="/biography/">my bio
 author_location: San Francisco, CA
 author_website_url: motiwari.com
 author_work_experiences:
+- company_name: Google (DeepMind and Cloud AI)
+  company_logo: google.png
+  dates: 2024-Present
+  designation: AI Researcher.
+  description:
+  - Under NDA.
+  visibility: true
 - company_name: OpenAI
   company_logo: openai.png
   dates: 2024-Present
   designation: Member of Technical Staff
   description:
-  - Under NDA. Sorry!
+  - Under NDA.
   visibility: true
 - company_name: Facebook (and Oculus)
   company_logo: facebook.png
