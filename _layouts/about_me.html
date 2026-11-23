@@ -46,6 +46,11 @@ layout: default
                     <div class="col-md-2">
                         <img src="/assets/img/{{ exp.company_logo }}" class="company-logo" />
 
+                        {% if exp.company_name == "Google" %}
+                        <!--Add some spacing to separate logos since Google is under NDA-->
+                        <br />
+                        <br />
+                        
                         {% if exp.company_name == "OpenAI" %}
                         <!--Add some spacing to separate logos since OpenAI is under NDA-->
                         <br />
