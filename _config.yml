@@ -62,14 +62,14 @@ author_website_url: motiwari.com
 author_work_experiences:
 - company_name: Google (DeepMind and Cloud AI)
   company_logo: google.png
-  dates: 2024-Present
-  designation: AI Researcher.
+  dates: 2025-Present
+  designation: AI Researcher
   description:
   - Under NDA.
   visibility: true
 - company_name: OpenAI
   company_logo: openai.png
-  dates: 2024-Present
+  dates: 2024-2025
   designation: Member of Technical Staff
   description:
   - Under NDA.
