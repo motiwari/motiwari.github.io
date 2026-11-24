@@ -109,6 +109,8 @@ GEM
     jekyll-gist (1.5.0)
       octokit (~> 4.2)
     jekyll-paginate (1.1.0)
+    jekyll-redirect-from (0.17.0)
+      jekyll (>= 3.3, < 5.0)
     jekyll-sass-converter (3.1.0)
       sass-embedded (~> 1.75)
     jekyll-seo-tag (2.6.1)
@@ -244,6 +246,7 @@ DEPENDENCIES
   jekyll (~> 4.3)
   jekyll-algolia (~> 1.0)
   jekyll-feed
+  jekyll-redirect-from
   jekyll-seo-tag
   jekyll-sitemap
   tzinfo (~> 1.2)
@@ -296,6 +299,7 @@ CHECKSUMS
   jekyll-feed (0.13.0) sha256=3906c7d7365f6a15c42d86caa5d75fb72ece7c36a068b346e581a206e7b6a8d3
   jekyll-gist (1.5.0) sha256=495b6483552a3e2975a2752964ea7acddd545bc6e13ce2be15a50cec8d4c9f0f
   jekyll-paginate (1.1.0) sha256=880aadf4b02529a93541d508c5cbb744f014cbfc071d0263a31f25ec9066eb64
+  jekyll-redirect-from (0.17.0) sha256=703dab0428b20bb5d550ab83d3c28b65bb5ecc0f734c5e61ee680de391b3e897
   jekyll-sass-converter (3.1.0) sha256=83925d84f1d134410c11d0c6643b0093e82e3a3cf127e90757a85294a3862443
   jekyll-seo-tag (2.6.1) sha256=d5986ff4599f2f2dc8e3e5ab231e245a36aa5820f70f12faa220444bb2a02edd
   jekyll-sitemap (1.4.0) sha256=0de08c5debc185ea5a8f980e1025c7cd3f8e0c35c8b6ef592f15c46235cf4218

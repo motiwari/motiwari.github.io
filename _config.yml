@@ -11,7 +11,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: mo. + LAST NAME + .ai AT gmail DOT com
+email: mo.tiwari.ai@gmail.com
 description: Mo Tiwari's webpage, projects, biography, resume, and FAQ
 baseurl: ''
 url: //motiwari.github.io
